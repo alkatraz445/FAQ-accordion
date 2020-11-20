@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Accordion -->
+    <link rel="stylesheet" href="css/accordion.css" />
+    <!-- RWD -->
+    <link rel="stylesheet" href="css/mobile.css" />
     <link
       rel="icon"
       type="image/png"
@@ -11,32 +23,77 @@
     />
     <title>Frontend Mentor | FAQ Accordion Card</title>
   </head>
-  <body>
-    <h3>How many team members can I invite?</h3>
-    <p>
-      You can invite up to 2 additional users on the Free plan. There is no
-      limit on team members for the Premium plan.
-    </p>
-    <h3>What is the maximum file upload size?</h3>
-    <p>
-      No more than 2GB. All files in your account must fit your allotted storage
-      space.
-    </p>
-    <h3>How do I reset my password?</h3>
-    <p>
-      Click “Forgot password” from the login page or “Change password” from your
-      profile page. A reset link will be emailed to you.
-    </p>
-    <h3>Can I cancel my subscription?</h3>
-    <p>
-      Yes! Send us a message and we’ll process your request no questions asked.
-    </p>
-    <h3>Do you provide additional support?</h3>
-    <p>
-      Chat and email support is available 24/7. Phone lines are open during
-      normal business hours.
-    </p>
-
+  <body class="body flex">
+    <div class="card flex">
+      <div class="picture">
+        <img class="box" src="/images/illustration-box-desktop.svg" alt="box" />
+        <div class="picture-overflow">
+          <img
+            class="woman"
+            src="/images/illustration-woman-online-desktop.svg"
+            alt="woman"
+          />
+          <img
+            class="pattern"
+            src="/images/bg-pattern-desktop.svg"
+            alt="pattern"
+          />
+        </div>
+      </div>
+      <div id="accordion" class="flex">
+        <h1 class="heading">FAQ</h1>
+        <button class="flex">
+          How many team members can I invite?
+          <img src="/images/icon-arrow-down.svg" alt="arrow" />
+        </button>
+        <div>
+          <p>
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </p>
+        </div>
+        <button class="flex">
+          What is the maximum file upload size?
+          <img src="/images/icon-arrow-down.svg" alt="arrow" />
+        </button>
+        <div>
+          <p>
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </p>
+        </div>
+        <button class="flex">
+          How do I reset my password?
+          <img src="/images/icon-arrow-down.svg" alt="arrow" />
+        </button>
+        <div>
+          <p>
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </p>
+        </div>
+        <button class="flex">
+          Can I cancel my subscription?
+          <img src="/images/icon-arrow-down.svg" alt="arrow" />
+        </button>
+        <div>
+          <p>
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </p>
+        </div>
+        <button class="flex">
+          Do you provide additional support?
+          <img src="/images/icon-arrow-down.svg" alt="arrow" />
+        </button>
+        <div>
+          <p>
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="attribution">
       <p>
         Challenge by
@@ -45,5 +102,7 @@
         >. Coded by <a href="https://github.com/alkatraz445">Jakub Kraus</a>.
       </p>
     </div>
+    <script src="js/accordion.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

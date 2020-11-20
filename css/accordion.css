@@ -1,0 +1,30 @@
+/* Accordion */
+
+.js-Accordion-title {
+  width: 80%;
+  height: 15%;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.25s;
+  color: hsl(237, 12%, 33%);
+}
+
+.js-Accordion-title:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.js-Accordion-content {
+  font-size: 0.875rem;
+  width: 75%;
+  overflow: hidden;
+  transition: all 0.25s linear;
+  border-bottom: 0.1em solid hsl(240, 5%, 91%);
+  color: hsl(240, 6%, 50%);
+}
+
+.js-Accordion-content p {
+  margin-bottom: 1rem;
+}
