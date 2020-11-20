@@ -1,9 +1,115 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  flex-direction: column;
+  z-index: 1;
+}
+/* Misc */
+
+p {
+  font-size: 0.875em;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  background-color: inherit;
+}
+
+/* Helpers */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main */
+
+.card {
+  height: 60vmin;
+  width: 110vmin;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 15px 40px 0px #00000067;
+  position: relative;
+  z-index: 1;
+}
+
+/* Picture */
+
+.picture {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.picture-overflow {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.woman {
+  position: absolute;
+  left: -15%;
+  top: 10%;
+  z-index: 2;
+  height: 70%;
+}
+
+.pattern {
+  position: absolute;
+  height: 150%;
+  top: -35%;
+  left: -80%;
+}
+
+.box {
+  position: absolute;
+  left: -20%;
+  top: 35%;
+  z-index: 3;
+}
+
+/* Accordion */
+
+#accordion {
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  height: 90%;
+}
+
+.heading {
+  color: hsl(238, 29%, 16%);
+}
+
 /* Attribution */
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 3%;
+  color: #ebebeb;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 85%, 26%);
 }
