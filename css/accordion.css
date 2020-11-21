@@ -9,11 +9,23 @@
   padding: 0;
   cursor: pointer;
   transition: all 0.25s;
-  color: hsl(237, 12%, 33%);
+  color: hsl(240, 6%, 50%);
+}
+
+.js-Accordion-title img {
+  transition: all 0.2s;
 }
 
 .js-Accordion-title:hover {
   color: hsl(14, 88%, 65%);
+}
+
+.active {
+  color: hsl(238, 29%, 16%);
+}
+
+.active img {
+  transform: rotate(180deg);
 }
 
 .js-Accordion-content {

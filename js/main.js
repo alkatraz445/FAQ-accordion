@@ -3,6 +3,6 @@ let accordion = new Accordion({
   oneOpen: false,
 });
 
-const getInput = () => {
-  const button = document.querySelector(".js-Accordion-title");
+const changeStyle = (elem) => {
+  elem.classList.toggle("active");
 };
