@@ -10,6 +10,7 @@
   cursor: pointer;
   transition: all 0.25s;
   color: hsl(240, 6%, 50%);
+  text-align: start;
 }
 
 .js-Accordion-title img {
@@ -22,6 +23,7 @@
 
 .active {
   color: hsl(238, 29%, 16%);
+  font-weight: 700;
 }
 
 .active img {
@@ -35,6 +37,7 @@
   transition: all 0.25s linear;
   border-bottom: 0.1em solid hsl(240, 5%, 91%);
   color: hsl(240, 6%, 50%);
+  text-align: start;
 }
 
 .js-Accordion-content p {

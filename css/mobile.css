@@ -1,0 +1,49 @@
+@media screen and (max-width: 767px) {
+  .card {
+    height: 150vmin;
+    width: 90vmin;
+  }
+
+  #accordion {
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    bottom: 10%;
+  }
+
+  .js-Accordion-title {
+    width: 90%;
+    font-size: 0.875rem;
+  }
+
+  .js-Accordion-content {
+    width: 90%;
+  }
+
+  .picture {
+    width: 100%;
+    height: 30%;
+    top: 0;
+  }
+
+  .picture-overflow {
+    overflow: visible;
+  }
+
+  .woman {
+    content: url(../images/illustration-woman-online-mobile.svg);
+    left: 12%;
+    top: -55%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .pattern {
+    top: -60%;
+    left: 19%;
+    height: 120%;
+  }
+  .box {
+    display: none;
+  }
+}

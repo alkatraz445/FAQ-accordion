@@ -27,6 +27,10 @@ button {
   background-color: inherit;
 }
 
+button:focus {
+  outline: none;
+}
+
 /* Helpers */
 
 .flex {
