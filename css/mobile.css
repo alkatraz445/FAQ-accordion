@@ -34,7 +34,7 @@
   }
 
   .accordion-title:hover {
-    color: hsl(240, 6%, 50%);
+    color: inherit;
   }
 
   .accordion-content {

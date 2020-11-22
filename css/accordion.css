@@ -18,12 +18,18 @@
 }
 
 .accordion-title:hover {
+  transform: scale(1.05);
   color: hsl(14, 88%, 65%);
 }
 
 .active {
   color: hsl(238, 29%, 16%);
   font-weight: 700;
+}
+
+.active:hover {
+  transform: scale(1);
+  color: hsl(238, 29%, 16%);
 }
 
 .active img {
