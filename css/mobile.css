@@ -28,16 +28,16 @@
     bottom: 10%;
   }
 
-  .js-Accordion-title {
+  .accordion-title {
     width: 90%;
     font-size: 0.875rem;
   }
 
-  .js-Accordion-title:hover {
+  .accordion-title:hover {
     color: hsl(240, 6%, 50%);
   }
 
-  .js-Accordion-content {
+  .accordion-content {
     width: 90%;
   }
 

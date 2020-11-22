@@ -1,6 +1,6 @@
 /* Accordion */
 
-.js-Accordion-title {
+.accordion-title {
   width: 80%;
   height: 15%;
   justify-content: space-between;
@@ -13,11 +13,11 @@
   text-align: start;
 }
 
-.js-Accordion-title img {
+.accordion-title img {
   transition: all 0.2s;
 }
 
-.js-Accordion-title:hover {
+.accordion-title:hover {
   color: hsl(14, 88%, 65%);
 }
 
@@ -30,7 +30,7 @@
   transform: rotate(180deg);
 }
 
-.js-Accordion-content {
+.accordion-content {
   font-size: 0.875rem;
   width: 75%;
   overflow: hidden;
@@ -40,6 +40,6 @@
   text-align: start;
 }
 
-.js-Accordion-content p {
+.accordion-content p {
   margin-bottom: 1rem;
 }

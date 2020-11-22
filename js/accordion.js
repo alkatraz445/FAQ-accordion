@@ -21,8 +21,8 @@ var Accordion = function (options) {
         : options.element,
     openTab = options.openTab,
     oneOpen = options.oneOpen || false,
-    titleClass = "js-Accordion-title",
-    contentClass = "js-Accordion-content";
+    titleClass = "accordion-title",
+    contentClass = "accordion-content";
 
   render();
 
