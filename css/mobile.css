@@ -1,3 +1,20 @@
+@media screen and (max-width: 1024px) {
+  .woman {
+    height: 50%;
+    top: 20%;
+    left: -10%;
+  }
+
+  .pattern {
+    height: 60%;
+    left: -10%;
+    top: 20%;
+  }
+  .box {
+    height: 30%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .card {
     height: 70vh;
